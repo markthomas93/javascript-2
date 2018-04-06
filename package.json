@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-appman",
+  "version": "0.1.0",
+  "description": "Appman's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appman-agm/javascript.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "appman",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Suwijak Chaipipat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appman-agm/javascript/issues"
+  },
+  "homepage": "https://github.com/appman-agm/javascript#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^16.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.9.0"
+  }
+}
