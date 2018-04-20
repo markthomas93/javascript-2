@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     // No semi-colon
     semi: ['error', 'never'],
+
     // Trailing comma
     'comma-dangle': [
       'error',
@@ -19,12 +20,6 @@ module.exports = {
         exports: 'always-multiline',
         functions: 'ignore',
       },
-    ],
-    'react/jsx-filename-extension': [
-        1,
-        {
-          extensions: ['.js', '.jsx']
-        }
     ],
   }
 }
