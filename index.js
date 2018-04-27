@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     // No semi-colon
     semi: ['error', 'never'],
+
     // Trailing comma
     'comma-dangle': [
       'error',
