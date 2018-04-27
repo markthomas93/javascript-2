@@ -21,5 +21,13 @@ module.exports = {
         functions: 'ignore',
       },
     ],
+
+    // React filename extension
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.js', '.jsx'],
+      },
+    ],
   },
 }
