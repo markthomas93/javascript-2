@@ -1,15 +1,8 @@
 module.exports = {
   extends: 'airbnb',
-  env: {
-    node: true,
-    es6: true,
-    browser: true,
-    jest: true,
-  },
   rules: {
     // No semi-colon
     semi: ['error', 'never'],
-
     // Trailing comma
     'comma-dangle': [
       'error',
