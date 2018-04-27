@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     // No semi-colon
     semi: ['error', 'never'],
+
     // Trailing comma
     'comma-dangle': [
       'error',
@@ -14,11 +15,13 @@ module.exports = {
         functions: 'ignore',
       },
     ],
+
+    // React filename extension
     'react/jsx-filename-extension': [
-        1,
-        {
-          extensions: ['.js', '.jsx']
-        }
+      1,
+      {
+        extensions: ['.js', '.jsx'],
+      },
     ],
-  }
+  },
 }
