@@ -4,7 +4,7 @@ module.exports = {
     node: true,
     es6: true,
     browser: true,
-    jest: true
+    jest: true,
   },
   rules: {
     // No semi-colon
@@ -21,5 +21,5 @@ module.exports = {
         functions: 'ignore',
       },
     ],
-  }
+  },
 }
