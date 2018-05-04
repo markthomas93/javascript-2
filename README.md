@@ -18,6 +18,6 @@ Add ```"extends": "appman"``` to your `.eslintrc` file
 For example
 ```
 {
-  "extends": "appman"
+  "extends": "@appman/appman"
 }
 ```
