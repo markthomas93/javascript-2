@@ -13,7 +13,7 @@ $ npm install @appman/eslint-config-appman --save-dev
 
 ## Usage
 
-Add ```"extends": "appman"``` to your `.eslintrc` file
+Add ```"extends": "@appman/appman"``` to your `.eslintrc` file
 
 For example
 ```
