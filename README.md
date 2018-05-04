@@ -4,11 +4,11 @@ Appman's javascript style guide
 ## Installation
 
 ```
-$ yarn add eslint-config-appman --dev
+$ yarn add @appman/eslint-config-appman --dev
 ```
 or
 ```
-$ npm install eslint-config-appman --save-dev
+$ npm install @appman/eslint-config-appman --save-dev
 ```
 
 ## Usage
